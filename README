@@ -1,0 +1,24 @@
+QMP3-H1 - is a GUI decoder of weather baloon telemetry.
+Based on work of zilog80 github user, but transformed into Qt GUI application that can be build for Windows, Linux, Mac OS and probably mobile devices.
+
+Takes flat audio from SDR software or hardware receivers, can produce CSV output that can be converted to GPX afterwards.
+I have a simple CLI utility for that, but if this decoder will get popular I'll add GPX support to the software itself.
+
+
+LINUX USERS:
+I've had this software built for linux using QT5, but now I can't upload a binary release.
+I'll do this later, so to build sources you've to install a qt5 build package from your distro's repo or directly from https://qt.io - choose the opensource online installer version.
+
+WINDOWS USERS:
+Tested, binary release provided.
+
+MAC USERS:
+Has not tested, i've no apple PC.
+
+ANDROID & IOS:
+Qt can produce mobile platform executables, but they will require additional work.
+If enough users will write comments into Issues tab, I will create a build.
+
+ENGLISH/RUSSIAN USERS:
+This app's interface is written in a mix of those two languages.
+If you want a complete correct translation - again, file an Issue.
